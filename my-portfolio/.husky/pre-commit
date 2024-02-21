@@ -1,1 +1,5 @@
-npm test
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# run lint-staged command
+npx lint-staged

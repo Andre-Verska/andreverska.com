@@ -32,5 +32,8 @@
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3"
 	},
+  "lint-staged": {
+    "*.{js,ts,svelte}": ["svelte-check", "npm run lint:fix"]
+  },
 	"type": "module"
 }
